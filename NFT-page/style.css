@@ -1,0 +1,111 @@
+/*Style guides
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+- Font size (paragraph): 18px*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:hsl(216, 54%, 12%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+main{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(13, 25, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 8px 11px 5px 0px rgba(13,25,43,0.75);
+    -webkit-box-shadow: 8px 11px 5px 0px rgba(5, 13, 24, 0.75);
+    -moz-box-shadow: 8px 11px 5px 0px rgba(11, 26, 49, 0.75);
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 580px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-color:  hsl(216, 50%, 16%);
+    justify-content: space-around;
+  
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.nft{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 4.5px 5px 20px;   
+    width: 300px;
+}
+.nft>h1{
+    font-size: 24px;
+}
+.nft>p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+.perfil>p{
+    color: white;
+}
+.pt{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 5px 5px 20px 5px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+.price{
+    color:hsl(178, 100%, 50%) ;
+    width: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+.time{
+    width: 110px;
+    display: flex;
+    justify-content: space-around;   
+    color: hsl(215, 51%, 70%);
+}
+.perfil>p{
+    color: white;
+    font-size: 18px;
+    word-spacing: 2px;
+
+}
+.perfil{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    padding-left: 20px;
+}
+.face{
+   width: 50px; 
+   height: 50px;
+   background: url(image-avatar.png) center center;
+   background-size: cover;
+   border-radius: 25px;
+   border: 1px solid white;
+   margin-right: 15px;
+}
+span{
+    color: hsl(215, 51%, 70%);
+}
