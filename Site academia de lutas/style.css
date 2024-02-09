@@ -1,0 +1,852 @@
+/*style guides
+colors: 
+ color: #000000;
+ color: #aa0b0b;
+ color:#fffff;*/
+ html {
+    scroll-behavior: smooth;
+  }
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, red
+    ,white);
+    
+
+   
+}
+/*página principal*/
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+}
+.infos a{
+  color: red;
+  text-decoration: none;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+}
+.logo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btn-matricula{
+    border-radius: 5px;
+    border: 1px red solid;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.btn-matricula:hover{
+    background-color: white;
+    color: black;
+    border: 1px white solid;
+    height: 50px;
+    width: 200px;
+    animation-delay: 7ms;
+    transition:0.9s;
+}
+
+
+/*menu*/
+.nav{
+  display:flex
+}
+.nav-link{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+    
+    
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/*style modalidades*/
+.modalidades{
+    width: 920px;
+    height: 300px;
+    background-color: rgb(254, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  margin-top: 20px;
+    margin-bottom: 15px;
+}.imgm{
+    background:url( https://wallpapers.com/images/hd/anderson-silva-hsbc-arena-1wiqcytqggtg63jz.jpg) center center;
+    background-size: cover;
+    width: 400px;
+    height:250px;
+}
+.contentm{
+    width: 400px;
+    height:250px ;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.text a{
+   color: white;
+}
+.saiba{
+    background-color: transparent;
+    border: 1px solid white;
+}
+/*planos*/
+.titulo{
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  margin:20px;
+}
+.titulo p{
+    font-size: 24px;
+}
+#planos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+  
+}
+#planos .umamodalidade{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    padding: 10px;
+    height: 400px;
+    width:400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:25px 0 40px 0;
+}
+#planos .duasmodalidade{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    padding: 10px;
+    height: 400px;
+    width:400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  margin:25px 0 40px 0;
+}
+
+/*style tabelas*/
+caption{
+    font-size: 24px;
+}
+td{
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+thead{
+    background-color: red;
+}
+th{
+    height: 40px;
+    text-align: center;
+    width: 20px;
+}
+.horario-a{
+    background-color: black;
+    color: white;
+    table-layout: red;
+    border: 1px solid red;
+}
+.horario-i {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    
+}
+
+
+/*Style sobre nós*/
+#sobre{
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sobre  p{
+    text-align: justify;
+    font-size: 23px;
+}
+
+.dono{
+    display: flex;
+    justify-content: space-around;
+    width: 920px;
+    height: 400px;
+    align-items: center;
+}
+.textd{
+    width: 350px;
+    padding: 10px 0px 0px 0px;
+    height: 300px;
+}
+.fotod{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/e/ec/Dana_White_-_London_2015_%28cropped%29.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+.professor{
+    display: flex;
+    justify-content: center;
+}
+ .professor h2{
+        display: flex;
+        justify-content: center;
+    }
+.cards{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+   gap: 50px;
+   justify-content: center;
+}
+.fotop{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+.cards p{
+    width: 250px;
+    text-align: justify;
+
+}
+.jjp{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.mtp{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.bp{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.jp{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.fotoa{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: url(https://conteudo.imguol.com.br/c/esporte/7a/2020/02/09/jon-jones-recebe-o-cinturao-do-ufc-apos-vitoria-sobre-dominick-reyes-1581250095581_v2_1x1.jpg) no-repeat center center;
+    background-size: cover;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+   background-color: black;
+   padding: 15px 0px 0px 0px;
+   height: 52vh;
+   margin-top: 20px;
+    align-items: center;
+    width: 100%;
+}
+footer a{
+    color: white;
+    text-decoration: 0;
+}
+footer a:hover{
+    color: red;
+   
+}
+
+.logof img{
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+    
+}
+.logof{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid  white;
+    padding: 0px 0px 15px 0px;
+    width: 100%;
+    
+}
+#contatos{
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: 
+   #d40404;
+   font-size: 28px;
+   border-bottom: 1px solid white;
+   width: 100%;
+   padding: 0px 0px 15px 0px;
+}
+.social {
+    flex-direction: row;
+    display: flex;
+    gap: 18px;
+    font-size: 32px; 
+    
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+  }
+  
+  .f-content{
+    display: flex;
+    justify-content: center;
+  }
+  .f-content a{
+    font-size: 18px;
+  }
+  .f-content h3{
+    color: #d40404;
+    font-size: 28px;
+  }
+  
+  .institucional{
+    padding: 0px 25px 0px 0px;
+  }
+  .locais{
+    padding: 0px 0px 0px 0px;
+  }
+  .valores{
+    padding: 0px 0px 0px 15px;
+  }
+  
+/*cards das lutas*/
+
+p{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.boxe{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.lutas .boxe img{
+    height: 200px;
+    width: 200px;
+}
+
+.Jiu-Jitsu{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.lutas .Jiu-Jitsu img{
+    height: 200px;
+    width: 200px;
+}
+.judo{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.lutas .judo img{
+    height: 200px;
+    width: 200px;
+}
+.muaythai{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.lutas .muaythai img{
+    height: 200px;
+    width: 200px;
+}
+
+.lutas{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+button{
+    border-radius: 5px;
+    border: 1px red solid;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px white solid;
+    height: 30px;
+    width: 150px;
+    
+}
+
+
+
+/* pagina control*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 45px;
+    width: 400px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: black;
+    color: white;
+    box-shadow: 12px 11px 5px 0px rgb(35, 34, 34);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .login-content h1{
+    margin-bottom: 40px;
+}   
+
+input {
+    height: 35px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
+  }
+  form {
+    padding: 0 40px;
+    
+  }
+
+  form>div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  } 
+  .btn-final{
+    gap: 25px;
+  }
+ 
+  @media((min-width:750px) and (max-width:950px)){
+    /*pagina inicial*/
+
+     .modalidades .imgm{
+        width: 300px;
+    }
+    .modalidades{
+        width: 800px;
+    }
+    #planos .umamodalidade{
+        width:300px;
+    }
+    #planos .duasmodalidade{
+        width:300px;
+    }
+    .historia p {
+        width: 800px;
+        
+    }
+    .historia{
+        display: flex;
+        justify-content: center;
+    }
+    .professor{
+        display: flex;
+        justify-content: center;
+    }
+    .professor p {
+        width: 800px;
+       
+        
+    }
+    .tprofessor{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .cards{
+        gap: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards p{
+        width: 170px;
+
+    }
+    .fotop{
+        width: 150px;
+        height: 150px;
+        border-radius: 25px;
+    }
+    .jjp {
+        height: 400px;
+        width: 170px;
+        margin-left: 10px;
+    }
+    .mtp{
+        height: 400px;
+        width: 170px;
+    }
+    .bp{
+        height: 400px;
+        width: 170px;
+    }
+    .jp{
+        height: 400px;
+        width: 170px;
+    }
+
+    /*pagina lutas*/
+    .boxe{
+        height: 450px;
+        width: 180px;
+        padding: 8px;
+    }
+    
+    .lutas .boxe img{
+        height: 150px;
+        width: 150px;
+    }
+    .Jiu-Jitsu{
+        height: 450px;
+        width: 180px;
+        padding: 8px;
+    }
+    
+    .lutas .Jiu-Jitsu img{
+        height: 150px;
+        width: 150px;
+    }
+    .judo{
+        height: 450px;
+        width: 180px;
+        padding: 8px;
+    }
+    
+    .lutas .judo img{
+        height: 150px;
+        width: 150px;
+    }
+    .muaythai{
+        height: 450px;
+        width: 180px;
+        padding: 8px;
+    }
+    
+    .lutas .muaythai img{
+        height: 150px;
+        width: 150px;
+    }
+
+  }
+
+  @media((min-width:150px) and (max-width:749px)){
+
+    /*pagina lutas*/
+
+    header .infos{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .modalidades{
+        display: flex;
+        flex-direction: column;
+        width:380px;
+        height: 600px;
+    }
+    .modalidades .imgm{
+        width: 300px;
+    }
+    .contentm{
+        display: flex;
+        align-items: center;
+    }
+    .contentm p {
+        width: 300px;
+    }
+    #planos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #planos .umamodalidade{
+        width:300px;
+    }
+    #planos .duasmodalidade{
+        width:300px;
+    }
+    .horario-a th{
+        font-size: 12px;
+    }
+    .horario-i th{
+        font-size: 12px;
+    }
+    .historia p {
+        width: 300px;
+        
+    }
+    .historia{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .dono{
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        margin-bottom: 40px;
+    }
+
+    .tprofessor p {
+        width: 300px;
+        
+    }
+    .tprofessor{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards{
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        gap: 30px;
+       
+    }
+    
+    .fotop{
+        width: 150px;
+        height: 150px;
+        border-radius: 25px;
+    }
+    .jjp {
+        height: 400px;
+        width: 260px;
+        
+    }
+    .mtp{
+        height: 400px;
+        width: 260px;
+    }
+    .bp{
+        height: 400px;
+        width: 260px;
+    }
+    .jp{
+        height: 400px;
+        width: 260px;
+    }
+   
+
+    /*pagina lutas*/
+    .lutas{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .boxe{
+        height: 450px;
+        width: 200px;
+        padding: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .lutas .boxe img{
+        height: 150px;
+        width: 150px;
+    }
+    .Jiu-Jitsu{
+        height: 450px;
+        width: 200px;
+        padding: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .lutas .Jiu-Jitsu img{
+        height: 150px;
+        width: 150px;
+    }
+    .judo{
+        height: 450px;
+        width: 200px;
+        padding: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .lutas .judo img{
+        height: 150px;
+        width: 150px;
+    }
+    .muaythai{
+        height: 450px;
+        width: 200px;
+        padding: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .lutas .muaythai img{
+        height: 150px;
+        width: 150px;
+    }
+    /*pagina control*/
+    .container{
+        width: 300px;
+    }
+    form {
+        padding: 0 50px;
+        
+      }
+      .container button{
+        width: 90px;
+    }
+
+
+  }

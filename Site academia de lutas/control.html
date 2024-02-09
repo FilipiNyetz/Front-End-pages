@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>control</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b0ee47ef1.js" crossorigin="anonymous"></script>
+    <script src="control.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/2560px-UFC_Logo.svg.png" alt="logo" title="img-header"></a>
+        </div>
+        <div class="infos">
+          <a href="index.html"><i class="fa-solid fa-house"></i> Voltar para home</a>
+            <a href="#contatos"><i class="fa-solid fa-phone"></i> Fale com a gente</a>
+            <a href="#local"><i class="fa-solid fa-location-dot"></i> Locais</a>
+          
+   
+
+        </div>
+    </header>
+    <div class="container">
+
+        <div class="login-content">
+          <h1>Contato</h1>
+    
+    
+          <form  onsubmit="return comfirmarFormulario()">
+            <div class="">
+              <label for="">Nome</label>
+              <input type="text" required placeholder="Seu nome">
+            </div>
+    
+            <div>
+              <label for="">Telefone</label>
+              <input type="text" required placeholder="(xx) xxxx-xxxx">
+            </div>
+    
+            <div>
+              <label for="">CPF</label>
+              <input type="text" required placeholder=" 000.000.000-00">
+    
+            </div>
+            <div>
+             <!-- datalist-->
+             <label for="modalidades"> Modalidade </label>
+             <input list="modalidades">
+             <datalist id="modalidades">
+              <option value="Aula experimental">
+                 <option value="Boxe">
+                 <option value="Jiu-jits">
+                 <option value="Judô">
+                 <option value="Muay-thai">
+                 <option value="Boxe + Jiu-Jitsu">
+                 <option value="Boxe + Muay-thai">
+                 <option value="Jiu-Jitsu + Judô">
+                 <option value="Jiu-Jitsu + Muay-thai">
+                 <option value="Judô + Muay-thai">
+                
+             </datalist>
+         </label> <br>
+            </div>
+            <P>entraremos em contato</P> <br>
+            
+            <div>
+              <button type="reset">Limpar</button>
+              <button type="submit">Enviar</button>
+              </div>
+              
+            
+          </form>
+    
+        </div>
+      </div>
+ <footer>
+        <div class="logof">
+            <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/2560px-UFC_Logo.svg.png" alt="logo" title="logo"></a>
+        </div>
+       
+        <section id="contatos">
+            <h1>Contatos</h1>
+            <div class="social">
+                <a href="https://www.instagram.com/ufc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/UFCBrasil/?locale=pt_BR" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/5561982643446" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </section>
+        
+        <div class="f-content">
+            <div class="institucional">
+                <h3>Instituição</h3>
+               <a href="index.html #sobre">
+                <p>Sobre</p>
+                </a>
+                <a href="index.html #sobre">
+                    <p>Conceito</p>
+                </a>
+            </div>
+            <section id="local">
+                <h3>Locais</h3>
+                <a href="https://www.google.com/maps/dir//R.+31+Norte,+3+-+LOJA+4+-+%C3%81guas+Claras,+Bras%C3%ADlia+-+DF,+71918-180/@-15.7931579,-48.0772537,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x935a33a8a221054d:0x7e7f63fe4cc84972!2m2!1d-48.0338207!2d-15.8361943?entry=ttu" target="_blank">
+                    <p>Águas claras</p>
+                </a>
+                <a href="https://www.google.com/maps/dir//CNB+13,+Lote+12,+Loja+05,+Taguantinga+Norte+-+DF,+Taguatinga+Norte,+Bras%C3%ADlia+-+DF,+72115-135/@-15.8211905,-48.1332303,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x935a3351827b2381:0x910b41e73cc98bb8!2m2!1d-48.0631898!2d-15.8212017?entry=ttu"target="_blank">
+                    <p>Taguatinga</p>
+                </a>
+                <a href="https://www.google.com/localservices/prolist?g2lbs=ADZRdkumfLPYCJe92VKPXZxZ7bW-ZDFHThvgwgHfFpCgJPzJlokWd3xQ_1ZV2Jazl35l8ozZNn-yMm1YCs6b9D7smg10zIwrohw5kicKxt0VhUqT3-k3uNY%3D&hl=pt-BR&gl=br&ssta=1&q=Five%20rounds&oq=Five%20rounds&slp=MgA6HENoTUlfZDJxMV9DOV93SVZCelNSQ2gwdGNnTkxSAggCYACSAUgKDS9nLzExZjE1ajYybm4KDS9nLzExZ2hxY3MybXAKDS9nLzExdGJ6YjF4MWMKDS9nLzExZzZia2Q0a2ISBBICCAESBAoCCAGaAQYKAhcZEAA%3D&src=2&serdesk=1&sa=X&ved=2ahUKEwj_j6LX8L3_AhVqEbkGHT5XATAQjGp6BAgWEAE&scp=ChhnY2lkOm1hcnRpYWxfYXJ0c19zY2hvb2wSZxISCTeJRf6UMlqTEQA7O-XKbvIrGhIJo5Fb5Bg9WpMRf13YC2LT6CQiJVRhZ3VhdGluZ2EsIEJyYXPDrWxpYSAtIERGLCA3MjAxNi0xOTAqFA1TUYv2FTeFV-Md1JmQ9iUZwmTjMAEaC0ZpdmUgcm91bmRzIgtGaXZlIHJvdW5kcyoaQWNhZGVtaWEgZGUgYXJ0ZXMgbWFyY2lhaXM%3D&spp=Cg0vZy8xMWc2YmtkNGtiOmRXaEVRQUJBQklndG1hWFpsSUhKdmRXNWtjNm9CTXhBQk1oNFFBU0lhMEN5ZnAyT0pjZWE2eS0xSUswZ0pQTHJzYWpIWlJjbWs2VkF5RHhBQ0lndG1hWFpsSUhKdmRXNWtjdz09" target="_blank">
+                    <p>Riacho Fundo 2 </p>
+                </a>
+            </section>
+            <div class="valores">
+                <h3>Valores</h3>
+                <a href="index.html #planos">
+                    <p>Planos</p>
+                </a>
+            </div>
+            <div class="">
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>   
