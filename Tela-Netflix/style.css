@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+/*body{
+    background:url(https://static.wikia.nocookie.net/thekaratekid/images/9/93/CK-S5_Poster.jpg/revision/latest?cb=20220825195023);
+    background-color: #fff;
+    color: #000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    
+}*/
+body{
+    background:url(backg.jpg) no-repeat;
+    background-size: cover;
+    height: 100 vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.itens{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.itens a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.main-content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 200px;
+    width: 600px;
+}
+.tittle img{
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+.busca{
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    
+}
+.busca i{
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    color: white;
+
+}
+.busca input{
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 4px;
+    padding-left: 25px;
+}
+::placeholder{
+    color: white;
+}
+.info{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px black;
+    font-size: 18px;
+    color: rgb(160, 158, 158);
+}
+button{
+    border: 0;
+}
+.age{
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+}
+.sinopse{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 1000px;
+    width: 100%;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.801);
+}
+.button{
+   display: flex;
+   gap: 15px;
+   margin-top: 25px;
+}
+.play{
+   width: 120px;
+   height: 30px;
+   border-radius: 4px;
+   color: white;
+   background-color: red;
+   font-size: 18px;
+   gap: 15px;
+   justify-content: space-between;
+  
+}
+.Mylist{
+    width: 120px;
+    height: 30px;
+    border-radius: 2px; 
+    font-size: 18px;
+    background-color: transparent; 
+    color: black;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.trailer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 5%;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    position: relative;
+}
+.trailer i {
+    
+    right: 198px;
+    position: absolute;
+    
+}
