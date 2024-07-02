@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4{
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+}
+.bg-body {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    contain: content;
+    position: relative;
+    filter: brightness(40%) saturate(90%);
+    -webkit-filter: brightness(40%) saturate(90%);
+    -moz-filter: brightness(40%) saturate(90%);
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.logo{
+    width: 190px;
+    height: 60px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png");
+    background-position: center center;
+    background-size: cover;
+    margin-left: 110px;
+}
+.menu{
+    width: 280px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 110px;
+}
+#language{
+    position: relative;
+    width: 150px;
+    background-color: rgba(36, 35, 35, 0.8);
+    border: 1px solid rgba(201, 199, 199, 0.5); /* Borda preta semi-transparente */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Sombra */
+    color: white;
+    border-radius: 3px;
+    padding-left: 30px;
+    font-family: Inter, sans-serif;
+}
+
+.fa-globe{
+    position: absolute;
+    color: white;
+    right: 339px;
+    top: 28px;
+}
+.entrar-BT{
+    background-color: red;
+    width: 80px;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    font-size: 16px;
+}
+.main-content{
+    position: absolute;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+.banner{
+    width: 750px;
+    height: 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px ;
+}
+h1{
+    font-size: 38px;
+    width: 100%;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+}
+h3{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.registrar{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+h4{
+    font-size: 18px;
+    word-spacing: 1.5px;
+    font-family: Inter, sans-serif;
+    width: 600px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+.formulario{
+    width: 470px;
+    height: 40px;
+    
+}
+form{
+    display: flex;
+    justify-content: space-between; 
+}
+#email{
+    background-color: rgba(15, 15, 15, 0.8);
+    border: 1px solid rgba(201, 199, 199, 0.5); /* Borda preta semi-transparente */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Sombra */
+    height: 40px;
+    width: 310px;
+    border-radius: 3px;
+}
+#email::placeholder{
+    position: absolute;
+    left: 10px;
+    color: rgba(230, 227, 227, 0.5);
+}
+#entrar{
+    background-color:red;
+    height: 42px;
+    width: 150px;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}

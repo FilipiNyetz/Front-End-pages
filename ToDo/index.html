@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTeste</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Esse é meu To Do List</h1>
+        <div class="days-container">
+            <div class="day" id="monday">
+                <h2>Monday</h2>
+                <form class="task-form hidden" onsubmit="escreverTarefa(event, 'monday')">
+                    <textarea class="task-input" placeholder="Enter your task..."></textarea>
+                    <button type="submit">Save Task</button>
+                </form>
+                <ul class="task-list" id="monday-tasks">
+                    <li class="task-item example">Sample Task 
+                        <div class="botoes">
+                            <button class="done-task-bt" onclick="confirmarTarefa('monday')">Done</button>
+                            <button class="remove-task-bt" onclick="removerTarefa('monday')">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="add-task-button" onclick="adicionarTarefa('monday')">Add Task</button>
+            </div>
+            <div class="day" id="tuesday">
+                <h2>thursday</h2>
+                <form class="task-form hidden" onsubmit="escreverTarefa(event, 'tuesday')">
+                    <textarea class="task-input" placeholder="Enter your task..."></textarea>
+                    <button type="submit">Save Task</button>
+                </form>
+                <ul class="task-list" id="tuesday-tasks">
+                    <li class="task-item example">Sample Task 
+                        <div class="botoes">
+                            <button class="done-task-bt" onclick="confirmarTarefa('tuesday')">Done</button>
+                            <button class="remove-task-bt" onclick="removerTarefa('tuesday')">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="add-task-button" onclick="adicionarTarefa('tuesday')">Add Task</button>
+            </div>
+            <div class="day" id="wednesday">
+                <h2>Monday</h2>
+                <form class="task-form hidden" onsubmit="escreverTarefa(event, 'wednesday')">
+                    <textarea class="task-input" placeholder="Enter your task..."></textarea>
+                    <button type="submit">Save Task</button>
+                </form>
+                <ul class="task-list" id="wednesday-tasks">
+                    <li class="task-item example">Sample Task 
+                        <div class="botoes">
+                            <button class="done-task-bt" onclick="confirmarTarefa('wednesday')">Done</button>
+                            <button class="remove-task-bt" onclick="removerTarefa('wednesday')">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="add-task-button" onclick="adicionarTarefa('wednesday')">Add Task</button>
+            </div>
+            <div class="day" id="thursday">
+                <h2>thursday</h2>
+                <form class="task-form hidden" onsubmit="escreverTarefa(event, 'thursday')">
+                    <textarea class="task-input" placeholder="Enter your task..."></textarea>
+                    <button type="submit">Save Task</button>
+                </form>
+                <ul class="task-list" id="thursday-tasks">
+                    <li class="task-item example">Sample Task 
+                        <div class="botoes">
+                            <button class="done-task-bt" onclick="confirmarTarefa('thursday')">Done</button>
+                            <button class="remove-task-bt" onclick="removerTarefa('thursday')">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="add-task-button" onclick="adicionarTarefa('thursday')">Add Task</button>
+            </div>
+            <div class="day" id="friday">
+                <h2>friday</h2>
+                <form class="task-form hidden" onsubmit="escreverTarefa(event, 'friday')">
+                    <textarea class="task-input" placeholder="Enter your task..."></textarea>
+                    <button type="submit">Save Task</button>
+                </form>
+                <ul class="task-list" id="friday-tasks">
+                    <li class="task-item example">Sample Task 
+                        <div class="botoes">
+                            <button class="done-task-bt" onclick="confirmarTarefa('friday')">Done</button>
+                            <button class="remove-task-bt" onclick="removerTarefa('friday')">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="add-task-button" onclick="adicionarTarefa('friday')">Add Task</button>
+            </div>
+            <div class="day" id="saturday">
+                <h2>saturday</h2>
+                <form class="task-form hidden" onsubmit="escreverTarefa(event, 'saturday')">
+                    <textarea class="task-input" placeholder="Enter your task..."></textarea>
+                    <button type="submit">Save Task</button>
+                </form>
+                <ul class="task-list" id="saturday-tasks">
+                    <li class="task-item example">Sample Task 
+                        <div class="botoes">
+                            <button class="done-task-bt" onclick="confirmarTarefa('saturday')">Done</button>
+                            <button class="remove-task-bt" onclick="removerTarefa('saturday')">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="add-task-button" onclick="adicionarTarefa('saturday')">Add Task</button>
+            </div>
+            <div class="day" id="sunday">
+                <h2>sunday</h2>
+                <form class="task-form hidden" onsubmit="escreverTarefa(event, 'sunday')">
+                    <textarea class="task-input" placeholder="Enter your task..."></textarea>
+                    <button type="submit">Save Task</button>
+                </form>
+                <ul class="task-list" id="monday-tasks">
+                    <li class="task-item example">Sample Task 
+                        <div class="botoes">
+                            <button class="done-task-bt" onclick="confirmarTarefa('sunday')">Done</button>
+                            <button class="remove-task-bt" onclick="removerTarefa('sunday')">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="add-task-button" onclick="adicionarTarefa('sunday')">Add Task</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

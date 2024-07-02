@@ -32,7 +32,11 @@ html {
 
 body {
     min-height: 100vh;
+<<<<<<< HEAD
     background: url("/imagens/pattern.png");
+=======
+    background: url("imagens/pattern.png");
+>>>>>>> a2fcd92 (update-novos-Projetos)
     background-size: cover;
     background-repeat: no-repeat;
 }

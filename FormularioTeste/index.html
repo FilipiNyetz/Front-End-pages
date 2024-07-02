@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-infos">
+        <main>
+            <form class="form-pf" action="">
+                <div class="formsBT tperson">
+                    <button class="formsBT tperson PF">Pessoa Física</button>
+                    <button onclick="mudarPJ()" type="button" class="formsBT tperson PJ">Pessoa Jurídica</button>
+                </div>
+                <div class="infos ">
+                    <input type="name" placeholder="Insira seu nome" id="name">
+                    <input type="email" name="" id="email" placeholder="Insira seu email">
+                    <input type="cpf" placeholder="Insira seu CPF" id="cpf">
+                    <input type="tel" name="" id="fone" placeholder="(XX) XXXXX-XXXX">
+                </div>
+                <div class="formsBT ">
+                    <button class="formsBT final send" onclick="enviar() " type="button">Enviar</button>
+                    <button class="formsBT final clear" type="reset">Limpar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

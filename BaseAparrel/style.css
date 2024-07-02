@@ -1,0 +1,127 @@
+/* style guides
+Colors:
+- Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%)
+- Dark Grayish Red: hsl(0, 6%, 24%)
+
+Gradients:
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+
+Font-size:16px
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color:  hwb(0 89% 7%);
+
+
+}
+.left-box{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.left-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: -80px;
+    margin-bottom: -150px;
+}
+.infos{
+    width: 400px;
+}
+h1{
+    font-size: 52px;
+    color: black;
+    letter-spacing: 9px;
+    margin-bottom: 15px;
+}
+h1 span{
+    color: hsl(0, 36%, 70%);
+
+}
+p{
+    font-size: 16px ;
+    word-spacing: 2px;
+    line-height: 22px;
+    color: hsl(0, 36%, 70%);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.login span{
+    font-size: 16px ;
+    word-spacing: 2px;
+    line-height: 22px;
+    color: hsl(0, 93%, 68%);
+    margin-left: 15px;
+}
+form{
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+}
+input{
+    width: 390px;
+    height: 46px;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    outline: 5px;  
+    text-indent: 5px;
+}
+input:focus{
+    text-indent: 15px;
+}   
+input::placeholder{
+    text-indent: 15px;
+}
+input.active{
+    width: 388px;
+    height: 46px;
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    border: 2px solid hsl(0, 93%, 68%);
+    text-indent: 5px;
+}
+input.active:focus {
+    text-indent: 15px; /* Ajusta a posição do texto quando o input está em foco */
+}
+
+input.active::placeholder {
+    text-indent: 15px; /* Mantém a posição do placeholder inalterada */
+}
+
+button{
+    position: absolute;
+    margin-left: 306px;
+    height: 48px;
+    width: 85px;
+    border-radius: 25px;
+    background-image: linear-gradient(to left, hsl(0, 93%, 68%), hsl(0, 0%, 90%));
+    border: none;
+    border-color: rgb(230, 193, 205);
+}
+.right-box{
+    height: 100vh;
+    width: 40%;
+    background: url(images/hero-desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+}
