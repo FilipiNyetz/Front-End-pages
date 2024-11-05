@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Receitas</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body class="index-page">
+
+    <header>
+        <h1>Catálogo de Receitas</h1>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a class="btn" href="/pages/receitas-selecionadas.html">Minhas Receitas Salvas</a>
+                    <a class="btn" href="/pages/lista-compras.html">Lista de Compras</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <p>Encontre receitas deliciosas, simples e rápidas. Navegue pelas categorias ou busque pelo que deseja cozinhar hoje!</p>
+            <ul class="categories">
+                <li class="categories-links">
+                    <a href="/pages/receitas.html?categoria=bolos">Bolos</a>
+                    <a href="/pages/receitas.html?categoria=doces">Doces</a>
+                    <a href="/pages/receitas.html?categoria=sopas">Sopas</a>
+                    <a href="/pages/receitas.html?categoria=carnes">Carnes</a>
+                    <a href="/pages/receitas.html?categoria=assados">Assados</a>
+                    <a href="/pages/receitas.html?categoria=massas">Massas</a>
+                </li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Digite o nome da receita...">
+                <button onclick="buscarNome()" id="search-button">Buscar</button>
+            </div>
+        </section>
+
+        <section class="recipe-list">
+            <span class="resultado-busca"></span>
+            <!-- Os resultados da busca serão exibidos aqui -->
+           
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Catálogo de Receitas</p>
+    </footer>
+</body>
+
+<script src="/scripts/dados.js"></script>
+<script src="/scripts/buscaReceita.js"></script>
+</html>

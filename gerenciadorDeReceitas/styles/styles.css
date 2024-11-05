@@ -1,0 +1,222 @@
+/* Estilos principais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #dad0ca; /* Cor de fundo */
+}
+
+/* Header */
+header {
+    background-color: #FAB4A4; /* Cor do cabeçalho */
+    text-align: center;
+    width: 100%;
+     /* Espaçamento inferior */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px; /* Espaçamento superior */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px; /* Espaço entre os links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #cb7287; /* Cor dos botões */
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #F6C7DD; /* Cor de hover dos botões */
+    color: #333;
+}
+
+/* Main */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto; /* Espaçamento superior e inferior */
+    padding: 20px;
+    background-color: #efe4dc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px; 
+    height: 25vh;/* Espaçamento entre introdução e categorias */
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px; /* Espaçamento entre categorias e busca */
+}
+
+.categories-links a {
+    font-size: 1rem;
+    text-align: center;
+    background-color: #cb7287;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.categories-links a:hover {
+    background-color: #F6C7DD;
+    color: #333;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#search {
+    width: 60%;
+    max-width: 400px;
+    border: 2px solid #dad0ca;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+}
+
+#search-button {
+    border: 2px solid #dad0ca;
+    border-left: none;
+    background-color: #cb7287;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #F6C7DD;
+    color: #333;
+}
+
+/* Recipe List */
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.recipe-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.recipe-list li {
+    list-style: none;
+    border: 1px solid #B88793;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.recipe-list .descricao-receita {
+    margin-bottom: 10px;
+}
+
+.recipe-list h1.item-nome {
+    font-size: 1.8rem;
+    color: #B88793;
+    margin: 0 0 10px;
+}
+
+.recipe-list p.item-tempo {
+    font-size: 1rem;
+    color: #777;
+    margin: 0 0 10px;
+}
+
+.recipe-list div.item-ingredientes {
+    margin-bottom: 10px;
+}
+
+.recipe-list div.item-ingredientes li {
+    width: 90%;
+}
+
+.recipe-list p.item-dificuldade {
+    font-size: 1rem;
+    color: #F97A82;
+    margin: 0;
+}
+
+.recipe-list .bt-seleciona-receita {
+    text-align: center;
+}
+
+.recipe-list button {
+    background-color: #B88793;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.recipe-list button:hover {
+    background-color: #F6C7DD;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #FAB4A4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Espaçamento superior */
+}

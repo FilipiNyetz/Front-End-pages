@@ -1,0 +1,142 @@
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dad0ca;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FAB4A4; /* Cor do cabeçalho */
+    text-align: center;
+    width: 100%;
+     /* Espaçamento inferior */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #cb7287;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #F6C7DD;
+    color: #333;
+}
+
+/* Estilos para o Parágrafo Introductório */
+.intro {
+    text-align: center; 
+   color: #333;
+    font-size: 1.2em;
+    margin-top: 4%;
+}
+
+/* Estilos para a Página Receitas Salvas */
+main {
+    padding: 10px;
+}
+
+h2 {
+    color: #B88793;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul.lista-receitas-salvas {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 70%; /* Tamanho ajustado para a caixa de receitas */
+}
+
+ul.lista-receitas-salvas li {
+    background-color: #efe4dc;
+    margin-bottom: 20px;
+    padding: 15px; /* Tamanho reduzido */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-nome {
+    font-size: 1.3em; /* Tamanho reduzido */
+    color: #F97A82;
+    margin: 0 0 10px 0;
+}
+
+.item-tempo, .item-dificuldade {
+    color: #B88793;
+    margin: 5px 0;
+}
+
+.item-ingredientes {
+    margin-top: 10px;
+}
+
+.item-ingredientes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-ingredientes li {
+    padding: 5px 0;
+}
+
+.item-modo-preparo {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Estilo para Lista de Compras */
+.lista-compras {
+    margin-top: 20px;
+}
+
+.lista-compras ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-compras li {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+.bt-add-listaCompras{
+    background-color: #B88793;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer {
+    background-color: #FAB4A4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Espaçamento superior */
+}

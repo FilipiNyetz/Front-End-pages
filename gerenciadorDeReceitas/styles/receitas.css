@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dad0ca;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FAB4A4; /* Cor do cabeçalho */
+    text-align: center;
+    width: 100%;
+     /* Espaçamento inferior */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px; /* Espaçamento superior */
+}
+
+main{
+    background-color: #dad0ca;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #B88793;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #B88793;
+    border-radius: 5px;
+}
+
+ul.lista-receitas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul.lista-receitas li {
+    list-style: none;
+    background-color: #efe4dc;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    background-color: #fff4f9;
+}
+
+.lista-receitas .descricao-receita {
+    margin-bottom: 10px;
+}
+
+.lista-receitas h1.item-nome {
+    font-size: 1.8rem;
+    color: #B88793;
+    margin: 0 0 10px;
+}
+
+.lista-receitas p.item-tempo {
+    font-size: 1rem;
+    color: #777;
+    margin: 0 0 10px;
+}
+
+.lista-receitas div.item-ingredientes {
+    margin-bottom: 10px;
+}
+
+.lista-receitas div.item-ingredientes li {
+    width: 90%;
+}
+
+.lista-receitas p.item-dificuldade {
+    font-size: 1rem;
+    color: #F97A82;
+    margin: 0;
+}
+
+.lista-receitas .bt-seleciona-receita {
+    text-align: center;
+}
+
+.lista-receitas button {
+    background-color: #B88793;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+h2 {
+    color: #B88793;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #FAB4A4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Espaçamento superior */
+}

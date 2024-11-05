@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="/styles/receitas.css"> <!-- Link para o CSS -->
+</head>
+<body class="receitas-page">
+
+    <header>
+        <h1>Catálogo de Receitas</h1>
+        <nav>
+            <a href="/pages/index.html" class="btn-nav">Voltar à Página Inicial</a>
+            <a href="/pages/receitas-selecionadas.html">Ver Receitas Selecionadas</a>
+            <a href="/pages/lista-compras.html">Ver Lista de Compras</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Receitas de <span id="categoria-titulo"></span></h2>
+            <ul class="lista-receitas">
+                <!-- As receitas serão inseridas aqui pelo JavaScript -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Catálogo de Receitas</p>
+    </footer>
+    <script src="/scripts/dados.js"></script>
+    <script src="/scripts/exibeReceitas.js"></script>
+</body>
+</html>
